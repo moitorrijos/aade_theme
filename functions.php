@@ -1,8 +1,17 @@
 <?php
+
+if ( ! defined( 'AADE_VERSION' ) ) {
+	// Replace the version number of the theme on each release.
+	define( 'AADE_VERSION', '1.0.0' );
+}
+
+
 add_action('wp_enqueue_scripts', 'aade_enqueue_styles');
 
 function aade_enqueue_styles(){
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
+    wp_enqueue_style( 'aade_fonts', 'https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap', array(), AADE_VERSION, 'all');
+    wp_enqueue_style( 'aade_globals', get_template_directory_uri() . '/css/global.css', array(), AADE_VERSION, 'all' );
+    wp_enqueue_style( 'main_style', get_template_directory_uri() . '/css/main.css', array('aade_fonts', 'aade_globals'), AADE_VERSION, 'all' );
 }
 
 add_action( 'after_setup_theme', 'aade_setup' );
