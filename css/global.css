@@ -16,7 +16,7 @@
     --color-danger: #f2545b;
     /*Tipografía*/
     --main-font-family: 'Josefin Sans', sans-serif;
-    --secondary-font-family: 'Josefin Sans', sans-serif;;
+    --secondary-font-family: 'Josefin Sans', sans-serif;
 }
 /*Importando Tipografía*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap');
@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
 }
-/*E*/
+/*Encabezado*/
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-family: var(--main-font-family);
 }
