@@ -2,3 +2,4 @@
 <body>
 <h1><?php bloginfo( 'description' ); ?></h1>
 </body>
+<?php get_footer(); ?>
