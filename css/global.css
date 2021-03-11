@@ -27,7 +27,7 @@
 }
 /*E*/
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
 }
 h1,.h1{
     font-size: 2.25rem;
@@ -49,44 +49,44 @@ h6,.h6{
 }
 /*Titulos*/
 .super-title{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 3.75rem; /*60px*/
     font-weight: 700;
 }
 .main-title{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 3.125rem; /*50px*/
     font-weight: 700;
 }
 .main-sub-title{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 2.5rem; /*40px*/
     font-weight: 400;
 }
 .second-sub-title{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 2.25rem; /*36px*/
     font-weight: 400;
 }
 /*Hero Text*/
 .hero-text{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 3.625rem; /*58px*/
     font-weight: 400;
 }
 /*Parrafos*/
 .paragraph-title{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 1.875rem; /*30px*/
     font-weight: 400;
 }
 .paragraph-regular-text{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 1.75rem; /*28px*/
     font-weight: 400;
 }
 .paragraph-small-text{
-    font-family: var(----main-font-family);
+    font-family: var(--main-font-family);
     font-size: 1.25rem; /*20px*/
     font-weight: 400;
 }
