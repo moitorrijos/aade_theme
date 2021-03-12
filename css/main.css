@@ -2,7 +2,47 @@ body {
     font-family: var(--secondary-font-family);
 }
 
-.top-bar {
+header{
     background-color: var(--color-bg-blue-dark);
     color: var(--color-text-white);
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: column;
+}
+.address-tel, .mail-social{
+    display: flex;
+    flex-direction: column;
+}
+.address,.tel,.mail,.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    display: none;
+}
+@media (min-width: 576px){
+    .top-bar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .address,.tel,.mail,.social{
+        display: flex;
+        margin-bottom: 0px;
+    }
+    .address, .mail{        
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px){
+    .address-tel, .mail-social{
+        flex-direction: row;
+    }
+    .address,.mail{
+        margin-right: 25px;
+        margin-bottom: 0px;
+    }
 }
