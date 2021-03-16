@@ -37,9 +37,56 @@ nav li{
 nav a:hover{
     color: var(--color-text-gray-dark);
 }
-.menu-toogle{
+.menu-toggle{
     position: absolute;
     cursor: pointer;
     top: 238;
     left: 20;
 }
+.burger-menu, .burger-menu::before .burger-menu::after{
+    content: "";
+    display: block;
+    background: var(--color-bg-white);
+    height: 3px;
+    width: 1.75em;
+    border-radius: 3px;
+    transition: all ease-in-out;
+}
+.burger-menu::before {
+    transform: translateY(-6px);
+  }
+  
+.burger-menu::after {
+    transform: translateY(3px);
+}
+@media (min-width: 680px) {
+  
+    .menu-toggle{
+      display: none;
+    }
+    
+    .nav {
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      clip-path: initial;
+    }
+    
+    .nav li {
+      display: inline-block;
+      border: none;
+    }
+    
+    .nav a {
+      padding: 0;
+      margin-left: 3em;
+    }
+    
+    .nav a:hover,
+    .nav a:focus {
+      background: transparent;
+    }
+    
+   
+  }

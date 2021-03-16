@@ -31,7 +31,7 @@
             <li class="m-l-10 m-r-10 p-t-15 p-b-10"><a href="#">product</a></li>
         </ul>
     </nav>
-    <div class="menu-toogle">
+    <div class="menu-toggle">
         <div class="burger-menu">
             <img src="<?php echo get_template_directory_uri();?>/images/burger_menu.svg" alt="menu">
         </diV>
