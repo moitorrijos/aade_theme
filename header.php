@@ -17,7 +17,7 @@
         <div class="social-media"></div>
     </div>
     <div class="container-fluid">
-        <div class="logo p-t-25 p-b-20">
+        <div class="logo py-4">
             <a href="#"><img src="<?php echo get_template_directory_uri();?>/images/African_American_Dance_Ensemble1.svg" alt="logo"></a>
         </div>
     </div>
