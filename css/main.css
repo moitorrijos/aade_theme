@@ -1,8 +1,49 @@
+:root{
+    /*Colores*/
+    --color-bg-white: #FFFFFF;
+    --color-bg-blue-dark: #2C7BC6;
+    --color-bg-blue-light: #A3CCF4;
+    --color-bg-orange: #FFC953;
+    --color-bg-gray-light: #EDEEF5;
+    --color-bg-gray-dark: #606060;
+    --color-bg-ultra-gray-dark: #393434;
+    --color-text-gray-dark: #747474;
+    --color-text-blue-dark: #1D3143;
+    --color-text-white: #FFFFFF;
+    /*Uso General*/
+    --color-warning: #f7bc06;
+    --color-danger: #f2545b;
+    /*Tipografía*/
+    --main-font-family: 'Josefin Sans', sans-serif;
+    --secondary-font-family: 'Josefin Sans', sans-serif;
+}
+/*Importando Tipografía*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap');
+
 body {
     font-family: var(--secondary-font-family);
+}
+
+img {
+    display: block;
 }
 
 .top-bar {
     background-color: var(--color-bg-blue-dark);
     color: var(--color-text-white);
+}
+
+.navbar-nav {
+    font-size: 22px;
+}
+
+.logo {
+    max-width: 446px;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+
+.bg-blue-light {
+    background-color: var(--color-bg-blue-light);
 }
