@@ -33,6 +33,10 @@ img {
     color: var(--color-text-white);
 }
 
+.top-bar * p {
+    margin:0px;
+}
+
 .navbar-nav {
     font-size: 22px;
 }
