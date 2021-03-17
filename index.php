@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <body>
-    <!--<h1><?php bloginfo( 'description' ); ?></h1>-->
+    <!--<h1><?php// bloginfo( 'description' ); ?></h1>-->
     <!--<div class="container-fluid bg-primary">
         <div class="row align-items-center no-gutters">
             <div class="col-xl-5 col-lg-6 col-md-12">
@@ -17,7 +17,7 @@
                 </div>
             </div>
            <div class="col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
-                <img src="<?php echo get_template_directory_uri();?>/images/aade-2_orig.png" alt="" class="img-fluid">
+                <img src="<?php// echo get_template_directory_uri();?>/images/aade-2_orig.png" alt="" class="img-fluid">
             </div>
         </div>
     </div>-->
