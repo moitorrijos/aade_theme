@@ -32,7 +32,8 @@
                         <br>RESPECT!
                         <br>FOR EVERYBODY
                 </h1>
-
+                <a href="#" class="btn btn-lg button-hero">Donate</a>
+                <a href="#" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a>
             </div>
         </div>
     </div>

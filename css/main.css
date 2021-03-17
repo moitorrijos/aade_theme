@@ -79,6 +79,27 @@ nav a:hover{
 .hero-text{
     line-height: 1.1;
 }
+.hero-text h1{
+    margin-bottom: 50px;
+}
+.button-hero{
+    background-color: var(--color-bg-orange);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 50px;
+}
+.performance-tooltip{
+    position: relative;
+}
+.performance-tooltip span{
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    left: 0;
+    color: white;
+}
 .our-motto{
     font-size: 25px;
 }
