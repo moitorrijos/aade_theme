@@ -10,6 +10,13 @@
   --color-text-gray-dark: #747474;
   --color-text-blue-dark: #1D3143;
   --color-text-white: #FFFFFF;
+
+    /*Uso General*/
+    --color-warning: #f7bc06;
+    --color-danger: #f2545b;
+    /*Tipografía*/
+    --main-font-family: 'Josefin Sans', sans-serif;
+    --secondary-font-family: 'Josefin Sans', sans-serif;
 }
 body {
     font-family: var(--secondary-font-family);
