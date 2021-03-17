@@ -17,14 +17,15 @@
     --main-font-family: 'Josefin Sans', sans-serif;
     --secondary-font-family: 'Josefin Sans', sans-serif;
 }
-body {
-    font-family: var(--secondary-font-family);
-}
+
 /*Importando Tipografía*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap');
 
 body {
+    background-color: var(--color-bg-gray-light);
     font-family: var(--secondary-font-family);
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 img {
@@ -63,4 +64,34 @@ img {
 }
 nav a:hover{
     color: var(--color-text-gray-dark);
+}
+.hero-image{
+    background-image: url("../images/aade-2_orig.png");
+    background-color: rgba(23, 75, 126, 38%);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.hero-text{
+    line-height: 1.1;
+}
+.our-motto{
+    font-size: 25px;
+}
+.our-history-image-column{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.our-history-image-column img{
+    width: 337px;
+    height: 382px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 20px;
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 15%);
 }
