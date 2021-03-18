@@ -116,3 +116,39 @@ nav a:hover{
     border-radius: 20px;
     box-shadow: 0px 12px 40px rgba(0, 0, 0, 15%);
 }
+
+.communities-section {
+    color: var(--color-text-blue-dark);
+}
+
+.image-dancer-peace {    
+    max-width: 240px;
+    max-height: 240px;
+    overflow:hidden;
+    border-radius: 20px;
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 15%);
+}
+
+.image-dancer-peace img {     
+    position: relative;
+    height: 100%;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width:992px) {
+    .mr-lg-6{
+        margin-right:6em !important;
+    }
+
+    .dancers-for-peace-section {
+        padding: 5em 0 !important;
+    }
+    
+    .image-dancer-peace {     
+        max-width:450px;        
+        max-height:450px;
+    }
+}
+
