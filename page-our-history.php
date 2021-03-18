@@ -5,7 +5,7 @@
         <div class="container">
             <div class="hero-text mx-auto text-center">
                 <h1 class="text-white text-uppercase my-4 lead our-history-text">
-                Our history
+                  Our history
                 </h1>
             </div>
         </div>
