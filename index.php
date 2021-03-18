@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>-->
-    <!-- <div class="hero-image row align-items-center no-gutters">
+    <div class="hero-image row align-items-center no-gutters">
         <div class="container">
             <div class="hero-text col-xl-5 col-lg-6 col-md-12">
                 <p class="text-white mb-4 lead our-motto">
@@ -36,7 +36,7 @@
                 <a href="#" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a>
             </div>
         </div>
-    </div> -->
+    </div>
    <main>
         <section>
             <div class="container pt-5">
@@ -130,7 +130,5 @@
             </div>
         </section>
    </main>
-
-
+   <?php get_footer(); ?>
 </body>
-<?php get_footer(); ?>
