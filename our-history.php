@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <body>
-    <div class="hero-image row align-items-center no-gutters our-history-hero-image">
+<div class="hero-image row align-items-center no-gutters our-history-hero-image">
         <div class="container">
             <div class="hero-text mx-auto text-center">
                 <h1 class="text-white text-uppercase my-4 lead our-history-text">
