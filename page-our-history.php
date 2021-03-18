@@ -1,3 +1,6 @@
+<?php /*
+Template Name: Our History
+*/;?>
 <?php get_header(); ?>
 <body>
 <div class="hero-image row align-items-center no-gutters our-history-hero-image">
