@@ -1,27 +1,6 @@
 <?php get_header(); ?>
 <body>
-    <!--<h1><?php// bloginfo( 'desrciption' ); ?></h1>-->
-    <!--<div class="container-fluid bg-primary">
-        <div class="row align-items-center no-gutters">
-            <div class="col-xl-5 col-lg-6 col-md-12">
-                <div class="py-6 py-lg-0">
-                    <p class="text-white-50 mb-4 lead">
-                    Our Motto:
-                    </p>
-                    <h1 class="text-white display-4 font-weight-bold">
-                    PEACE! LOVE!
-                    RESPECT!
-                    FOR EVERYBODY
-                    </h1>
-                    <a href="#" class="btn btn-secondary btn-lg">Donate</a>
-                </div>
-            </div>
-           <div class="col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
-                <img src="<?php echo get_template_directory_uri();?>/images/aade-2_orig.png" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>-->
-    <div class="hero-image row align-items-center no-gutters">
+<div class="hero-image row align-items-center no-gutters">
         <div class="container">
             <div class="hero-text col-xl-5 col-lg-6 col-md-12">
                 <p class="text-white mb-4 lead our-motto">
