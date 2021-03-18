@@ -69,7 +69,7 @@ nav a:hover{
     color: var(--color-text-gray-dark);
 }
 .hero-image{
-    background-image: url("../images/aade-2_orig.png");
+    background-image: url("../images/aade-2_orig.jpg");
     background-color: rgba(23, 75, 126, 38%);
     background-blend-mode: multiply;
     background-position: center;
