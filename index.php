@@ -68,18 +68,20 @@
                 </div>
             </div>
         </section>
-        <section class="bg-white">
-            <div>
-                <div class="container">
+        <section>
+            <div class="communities-section bg-white">
+                <div class="container pt-4 pb-5">
                     <div class="row">
-                        <h2 class="text-center">Building Stronger Communities through the power of the ARTS!</h2>
-                        <div class="foundation-column col-lg-4">
-                            <img src="<?php echo get_template_directory_uri();?>/images/dac-logo2.gif" alt="#">
+                        <h3 class="mb-4 text-center mx-2 mx-md-auto font-weight-bold">Building Stronger Communities through the power of the ARTS!</h3>
+                    </div>
+                    <div class="row d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-center">
+                        <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">
+                            <img src="<?php echo get_template_directory_uri();?>/images/dac-logo2.gif" alt="">
                         </div>
-                        <div class="foundation-column col-lg-4">
+                        <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">
                             <img src="<?php echo get_template_directory_uri();?>/images/uaclogo.jpg" alt="#">
                         </div>
-                        <div class="foundation-column col-lg-4">
+                        <div>
                             <img src="<?php echo get_template_directory_uri();?>/images/ncartslogo.jpg" alt="#">
                         </div>
                     </div>
@@ -87,27 +89,25 @@
             </div>
         </section>
         <section>
-            <div class="container bg-blue-light">
-            <div class="row">
-                    <div class="p-lg-0 our-history-image-column col-lg-6">
-                        <div style="display: block; overflow: hidden; position: absolute; inset: 0px; box-sizing: border-box; margin: 0px;">
-                            <img src="<?php echo get_template_directory_uri();?>/images/aade-2_orig.png" alt="#">
+            <div class="dancers-for-peace-section container-fluid bg-blue-light py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-flex d-flex-column justify-content-center align-items-center">
+                            <div class="image-dancer-peace">
+                                <img src="<?php echo get_template_directory_uri();?>/images/aade-3_orig.jpg" alt="#">
+                            </div>                           
                         </div>
-                    </div>
-                    <div class="our-mission-text-column bg-gray-100 col-lg-6">
-                        <div class="our-mission-text py-5">
-                            <h2 class="text-muted letter-spacing-5 my-4">Dancers for peace</h2>
-                            <p>AADE is committed to OUTREACH, focusing on the well-being and a possitive future of OUR Youth.
-                            We continue the Legacy of Dr. Chuck Davis in presserving, teaching and performing traditional African Dance Music and Values.
-                            We present dance and music from West African Dance, Music and Values.
-                            We present dance and music from West African Region as well as Congolese Drumming.
-                            Culture, History and Values that promote Unity and Diversity are in all our performances. (Call office for Fee Schedule)
-                            </p>
+                        <div class="col-12 col-lg-6 my-auto">
+                            <h2 class="text-muted text-uppercase text-center text-lg-left pt-4 pb-3 font-weight-bold">Dancers for peace</h2>
+                            <p class="text-muted text-center text-lg-left m-0">AADE is committed to OUTREACH, focusing on the well-being and a possitive future of OUR Youth.
+                             We continue the Legacy of Dr. Chuck Davis in presserving, teaching and performing traditional African Dance Music and Values. </p>  
+                            <p class="text-muted text-center text-lg-left m-0">We present dance and music from West African Region as well as Congolese Drumming.</p>
+                            <p class="text-muted text-center text-lg-left m-0">Culture, History and Values that promote Unity and Diversity are in all our performances. (Call office for Fee Schedule)</p>                                                     
                         </div>
                     </div>
                 </div>
             </div>
         </section>
    </main>
+   <?php get_footer(); ?>
 </body>
-<?php get_footer(); ?>
