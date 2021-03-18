@@ -28,5 +28,5 @@
             </div>
         </section>
    </main>
+   <?php get_footer(); ?>
 </body>
-<?php get_footer(); ?>
