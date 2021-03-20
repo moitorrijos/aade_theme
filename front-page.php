@@ -1,15 +1,13 @@
 <?php get_header(); ?>
 <body>
-    <div class="hero-image row align-items-center no-gutters">
+    <div class="hero-image row align-items-center no-gutters" style="background-image: url(<?php the_field('background_hero_image'); ?>)">
         <div class="container">
             <div class="hero-text col-xl-5 col-lg-6 col-md-12">
                 <p class="text-white mb-4 lead our-motto">
-                Our Motto:
+                    <?php the_field('motto'); ?>
                 </p>
                 <h1 class="text-white display-4 font-weight-bold lh-1">
-                        PEACE! LOVE!
-                        <br>RESPECT!
-                        <br>FOR EVERYBODY
+                    <?php the_field('description'); ?>
                 </h1>
                 <a href="#" class="btn btn-lg button-hero">Donate</a>
                 <a href="#" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a>
@@ -23,25 +21,15 @@
                     <div class="our-mission-text-column bg-gray-100 col-lg-6">
                         <div class="our-mission-text py-5">
                             <h2 class="text-muted letter-spacing-5 my-4">Our Mission</h2>
-                            <p>The African American Dance Ensemble’s mission is to preserve
-                             and share the finest traditions of African and African American
-                              dance and music through research, education and
-                               entertainment. With the motto, “Peace, love, respect for
-                                everybody,” the Ensemble celebrates traditional African culture,
-                                 aesthetics and values as resources to encourage interracial
-                                  cooperation and cross-cultural understanding. Towards this end,
-                                   the Ensemble develops partnerships and collaborations with
-                                    community programs and resources, conducts residencies
-                                     and workshops in diverse settings, and offers apprenticeships
-                                      with emerging performers to enhance their artistic skills and
-                                       capacities.</p>
+                            <?php the_field('our_mission'); ?>
                         </div>
                     </div>
                     <div class="p-lg-0 our-history-image-column col-lg-6">
-                        <img src="<?php echo get_template_directory_uri();?>/images/aade-cropwalk-1_orig.jpg" alt="#">
+                        <?php $main_image = get_field('main_image'); ?>
+                        <img src="<?php echo $main_image['url']; ?>" alt="<?php echo $main_image['alt']; ?>">
                     </div>
                 </div>
-            </div>-->
+            </div>
         </section>
         <section class="bg-white">
             <div class="container py-5">

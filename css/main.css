@@ -121,7 +121,7 @@ nav a:hover{
 }
 
 .our-history-hero-image{
-    background-image: url("../images/531005958.jpg");
+    /* background-image: url("../images/531005958.jpg"); */
     width: auto;
     background-color: rgba(23, 75, 126, 38%);
     background-blend-mode: multiply;

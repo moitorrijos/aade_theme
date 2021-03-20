@@ -1,11 +1,10 @@
 <?php /* Template Name: Our History */ ?>
 <?php get_header(); ?>
-<body>
-<div class="hero-image row align-items-center no-gutters our-history-hero-image">
+    <div class="hero-image row align-items-center no-gutters our-history-hero-image">
         <div class="container">
             <div class="hero-text mx-auto text-center">
                 <h1 class="text-white text-uppercase my-4 lead our-history-text">
-                  Our history
+                  <?php the_title(); ?>
                 </h1>
             </div>
         </div>
@@ -101,5 +100,4 @@
             </div>
         </section>
     </main>
-</body>
 <?php get_footer(); ?>

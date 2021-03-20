@@ -46,13 +46,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto text-uppercase">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> aade - home</a>
+                    <a class="nav-link" href="/"> aade - home</a>
                 </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="#">our history</a>
+                     <a class="nav-link" href="/our-history">our history</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> support aade</a>
+                    <a class="nav-link" href="/support-aade"> support aade</a>
                  </li>
                 <li class="nav-item">
                      <a class="nav-link" href="#">we can dance for you!!!</a>
