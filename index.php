@@ -1,7 +1,22 @@
 <?php get_header(); ?>
-<body>
+<div class="hero-image row align-items-center no-gutters">
+        <div class="container">
+            <div class="hero-text col-xl-5 col-lg-6 col-md-12">
+                <p class="text-white mb-4 lead our-motto">
+                Our Motto:
+                </p>
+                <h1 class="text-white display-4 font-weight-bold lh-1">
+                        PEACE! LOVE!
+                        <br>RESPECT!
+                        <br>FOR EVERYBODY
+                </h1>
+                <a href="#" class="btn btn-lg button-hero">Donate</a>
+                <a href="#" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a>
+            </div>
+        </div>
+    </div>
    <main>
-        <section>
+<section>
             <div class="container pt-5">
                 <div class="row">
                     <div class="our-mission-text-column bg-gray-100 col-lg-6">
@@ -28,5 +43,4 @@
             </div>
         </section>
    </main>
-   <?php get_footer(); ?>
-</body>
+<?php get_footer(); ?>
