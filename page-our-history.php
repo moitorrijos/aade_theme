@@ -1,6 +1,5 @@
 <?php /* Template Name: Our History */ ?>
 <?php get_header(); ?>
-<body>
 <div class="hero-image row align-items-center no-gutters our-history-hero-image">
         <div class="container">
             <div class="hero-text mx-auto text-center">
@@ -11,54 +10,147 @@
         </div>
     </div>
     <main>
-        <section class="pt-5">
+        <section class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="p-lg-0 col-lg-6">
-                        <img scr="#" alt="Dr. Charles Chuck Davis" class="avatar">
-                        <h2>Dr. Charles "Chuck" Davis</h2>
-                        <p>Jan 1, 1937 - May 14, 2017</p>
-                        <p>Refusing to become one of those who forget, We are reminded, that we are standing, marching, kneeling and existing by the grace and will of the Merciful Creator and to give true obeisance to HIM, is to NOT forget the warriors of the past, and the Elders of today.
-                        </p>
-                        <h2>AADE Founding Members</h2>
-                        <p>Dr. Charles "Chuck" Davis - Founder</p>
-                        <h2 class="text-uppercase">Founding Dancers</h2>
-                        <ul class="members">
-                            <li>Venita (Ashford) Allen</li>
-                            <li>Gloria (Muldrow) Bailey (past title: Dance Capt)</li>
-                            <li>Ivy Burch (past title: Dance Capt)</li>
-                            <li>Lou Carter</li>
-                            <li>Toni K. Hall (prior title: Dance Capt)</li>
-                            <li>Brenda Hayes (past title: Costumes/ Attire)</li>
-                            <li>Gail (Martin) Rouse</li>
-                            <li>Ava (McFarland) Vinesett (past title: Assistant to the Director)</li>
-                            <li>Leah Wise</li>
-                            <li>Thaddeus Bennett</li>
-                            <li>Lavender “L.D.” Burris</li>
-                            <li>Jimmie Green</li>
-                            <li>Sherone Price</li>
-                            <li>Jimmy Williams</li>
-                        </ul>
-                        <h2 class="text-uppercase">Founding musicians</h2>
-                        <ul class="members">
-                            <li>Beverly Botsford</li>
-                            <li>George Glenn</li>
-                            <li>Khalid Saleem (past title: Musical Director)</li>
-                            <li>Hashim Saleh</li>
-                        </ul>
-                        <h2>Technical Director/Lighting Designer</h2>
-                        <ul class="members">
-                            <li>Elizabeth Grimes Droessler</li>
-                        </ul>
+                    <div class="col-6">
+                        <div class="biography">
+                            <div class="avatar mb-3">
+                                <img src="<?php echo get_template_directory_uri();?>/images/baba-chuck-1.jpg" alt="Dr. Charles Chuck Davis">
+                            </div>
+                            <h2>Dr. Charles "Chuck" Davis</h2>
+                            <p>Jan 1, 1937 - May 14, 2017</p>
+                            <p>Refusing to become one of those who forget, We are reminded, that we are standing, marching, kneeling and existing by the grace and will of the Merciful Creator and to give true obeisance to HIM, is to NOT forget the warriors of the past, and the Elders of today.
+                            </p>
+                        </div>
+                        <div class="biography pt-5">
+                            <h2>AADE Founding Members</h2>
+                            <p>Dr. Charles "Chuck" Davis - Founder</p>
+                            <h2 class="text-uppercase">Founding Dancers</h2>
+                            <ul class="members">
+                                <li>Venita (Ashford) Allen</li>
+                                <li>Gloria (Muldrow) Bailey (past title: Dance Capt)</li>
+                                <li>Ivy Burch (past title: Dance Capt)</li>
+                                <li>Lou Carter</li>
+                                <li>Toni K. Hall (prior title: Dance Capt)</li>
+                                <li>Brenda Hayes (past title: Costumes/ Attire)</li>
+                                <li>Gail (Martin) Rouse</li>
+                                <li>Ava (McFarland) Vinesett (past title: Assistant to the Director)</li>
+                                <li>Leah Wise</li>
+                                <li>Thaddeus Bennett</li>
+                                <li>Lavender “L.D.” Burris</li>
+                                <li>Jimmie Green</li>
+                                <li>Sherone Price</li>
+                                <li>Jimmy Williams</li>
+                            </ul>
+                            <h2 class="text-uppercase">Founding musicians</h2>
+                            <ul class="members">
+                                <li>Beverly Botsford</li>
+                                <li>George Glenn</li>
+                                <li>Khalid Saleem (past title: Musical Director)</li>
+                                <li>Hashim Saleh</li>
+                            </ul>
+                            <h2>Technical Director/Lighting Designer</h2>
+                            <ul class="members">
+                                <li>Elizabeth Grimes Droessler</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="p-lg-0 col-lg-6">
-                        <img scr="#" alt="Dr. B. Angeloe Burch Sr." class="avatar">
-                        <h2>Dr. B. Angeloe Burch Sr.</h2>
-                        <p>Dr. Burch currently serves as Executive Director for the African American Dance Ensemble. He is a State Commissioner for the NC- Credit Unions, Member of the NC Museum of Arts Board of Trustees, on the Citizen Advisory Committee and Homeless Services Advisory Committee is Secretary of the Inter-Denominational Ministerial Alliance of Durham and Vicinity. A life of service and commitment to the community and to mankind is the most fulfilling thing any person could wish.
-                            Dr. Burch is the Board Chair for CHTOP, Member of the Access to Care Committee, a member of the National Kidney Foundation, Member of Red Mt. Lodge #468 of the Prince Hall Masons and many other civic organizations.
-                        </p>
+                    <div class="col-6">
+                        <div class="biography">
+                            <div class="avatar mb-3">
+                                <img src="<?php echo get_template_directory_uri();?>/images/ed1.jpg" alt="Dr. B. Angeloe Burch Sr.">
+                            </div>
+                            <h2>Dr. B. Angeloe Burch Sr.</h2>
+                            <p>Dr. Burch currently serves as Executive Director for the African American Dance Ensemble. He is a State Commissioner for the NC- Credit Unions, Member of the NC Museum of Arts Board of Trustees, on the Citizen Advisory Committee and Homeless Services Advisory Committee is Secretary of the Inter-Denominational Ministerial Alliance of Durham and Vicinity. A life of service and commitment to the community and to mankind is the most fulfilling thing any person could wish.
+                                Dr. Burch is the Board Chair for CHTOP, Member of the Access to Care Committee, a member of the National Kidney Foundation, Member of Red Mt. Lodge #468 of the Prince Hall Masons and many other civic organizations.
+                            </p>
+                        </div>
+                        <div class="crew pt-5">
+                            <h2 class="text-center">AADE BOARD</h2>
+                            
+                            <div class="crew-avatar pt-2">
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/tabron.jpg" alt="Tabron">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/kim-monroe.jpg" alt="Kim Monroe">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/deb.jpg" alt="Deb">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/marjorie-black_1.jpg" alt="Marjorie Black">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="crew">  
+                            <div class="crew-avatar">
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/percy.jpg" alt="Percy">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/armeer.jpg" alt="Armeer">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/daran.jpg" alt="Daran">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="crew pt-5">
+                            <h2 class="text-center">AADE STAFF</h2>
+                            
+                            <div class="crew-avatar board pt-2">
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/lizdroessler-ds_1.jpg" alt="Liz Drossler">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/demetrius-holder_1.jpg" alt="Demetrius Holder">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="crew pt-5">
+                            <h2 class="text-center">AADE ARTISTS</h2>
+                            
+                            <div class="crew-avatar board pt-2">
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/lebrandi.jpg" alt="Lebrandi">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/dscn0239.jpg" alt="#">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/toni.jpg" alt="Toni">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/osei_1.jpg" alt="Osei">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/gail.jpg" alt="Gail">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/dorinda.jpg" alt="Dorinda">
+                                </div>
+                            </div>
+                            <div class="crew-avatar">
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/mcdaniel.jpg" alt="McDaniel">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/jerri.jpg" alt="Jerri">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/venita.jpg" alt="Venita">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/toya.jpg" alt="Toya">
+                                </div>
+                                <div class="avatar">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/ivy.jpg" alt="Ivy">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,5 +193,4 @@
             </div>
         </section>
     </main>
-</body>
 <?php get_footer(); ?>
