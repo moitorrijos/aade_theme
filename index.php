@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<body>
 <div class="hero-image row align-items-center no-gutters">
         <div class="container">
             <div class="hero-text col-xl-5 col-lg-6 col-md-12">
@@ -17,7 +16,7 @@
         </div>
     </div>
    <main>
-        <section>
+<section>
             <div class="container pt-5">
                 <div class="row">
                     <div class="our-mission-text-column bg-gray-100 col-lg-6">
@@ -109,5 +108,4 @@
             </div>
         </section>
    </main>
-</body>
 <?php get_footer(); ?>

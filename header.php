@@ -36,7 +36,7 @@
     </div>
     <div class="container-fluid">
         <div class="logo py-4">
-            <a href="#"><img src="<?php echo get_template_directory_uri();?>/images/African_American_Dance_Ensemble.png" alt="logo"></a>
+            <a href="sample-page"><img src="<?php echo get_template_directory_uri();?>/images/African_American_Dance_Ensemble.png" alt="logo"></a>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-blue-light">
@@ -46,10 +46,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto text-uppercase">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> aade - home</a>
+                    <a class="nav-link" href="sample-page"> aade - home</a>
                 </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="#">our history</a>
+                     <a class="nav-link" href="our-history">our history</a>
                  </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"> support aade</a>
