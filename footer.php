@@ -11,6 +11,22 @@
                         <p><small>Fridays 9:00 a.m. - 1:00 p.m.</small></p>
                     </div>
                     <p><small>aadesemble@aade-inc-org</small></p>
+                        <div class="container pt-md-5 d-none d-lg-block">
+                            <div class="row">
+                                <p class="mb-3 font-weight-bold">Building Stronger Communities through the power of the ARTS!</h2>
+                            </div>
+                            <div class="row d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-center">
+                                <div class="mt-md-3 mr-md-5 mr-lg-2">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/dac-logo2.gif" alt="">
+                                </div>
+                                <div class="mt-md-3 mr-md-5 mr-lg-3">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/uaclogo.jpg" alt="#">
+                                </div>
+                                <div class="mt-md-3">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/ncartslogo.jpg" alt="#">
+                                </div>
+                            </div>
+                        </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <p class="support-text text-uppercase text-center mt-5 mt-md-0">
