@@ -3,7 +3,7 @@
     <div class="hero-image row align-items-center no-gutters our-history-hero-image">
         <div class="container">
             <div class="hero-text mx-auto text-center">
-                <h1 class="text-white text-uppercase my-4 lead our-history-text">
+                <h1 class="text-white text-uppercase my-4 our-history-heading">
                   <?php the_title(); ?>
                 </h1>
             </div>
@@ -12,11 +12,11 @@
     <main>
         <section class="py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-6">
+                <div class="d-flex justify-content-between">
+                    <div class="col-5">
                         <div class="biography">
                             <div class="avatar mb-3">
-                                <img src="<?php echo get_template_directory_uri();?>/images/baba-chuck-1.jpg" alt="Dr. Charles Chuck Davis">
+                                <img src="<?php echo get_template_directory_uri();?>/images/baba-chuck-1.jpg" class="img-fluid charles-davis" alt="Dr. Charles Chuck Davis">
                             </div>
                             <h2>Dr. Charles "Chuck" Davis</h2>
                             <p>Jan 1, 1937 - May 14, 2017</p>
@@ -56,10 +56,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-5">
                         <div class="biography">
                             <div class="avatar mb-3">
-                                <img src="<?php echo get_template_directory_uri();?>/images/ed1.jpg" alt="Dr. B. Angeloe Burch Sr.">
+                                <img src="<?php echo get_template_directory_uri();?>/images/ed1.jpg" class="angeloe-burch" alt="Dr. B. Angeloe Burch Sr.">
                             </div>
                             <h2>Dr. B. Angeloe Burch Sr.</h2>
                             <p>Dr. Burch currently serves as Executive Director for the African American Dance Ensemble. He is a State Commissioner for the NC- Credit Unions, Member of the NC Museum of Arts Board of Trustees, on the Citizen Advisory Committee and Homeless Services Advisory Committee is Secretary of the Inter-Denominational Ministerial Alliance of Durham and Vicinity. A life of service and commitment to the community and to mankind is the most fulfilling thing any person could wish.
@@ -167,24 +167,24 @@
                 <address class="text-right">Nigerian Proverb</address>
             </div>
             <div class="container pt-3">
-                <div class="row">
-                    <div class="the-african-connection-text-column col-lg-6">
+                <div class="d-flex justify-content-between my-5">
+                    <div class="the-african-connection-text-column col-lg-5">
                         <div class="the-african-connection-text py-5">
                             <h2 class="text-muted letter-spacing-5 my-4">The African Connection</h2>
                             <p>Chuck’s connection to Africa began with his birth, but the artistic connection began with a performance of the Sierra Leone National Dance Company at the New York World’s Fair in 1964. Study in Africa became a goal. The opportunity came in 1977 when the Chuck Davis Dance Company participated in FESTAC, an international exposition and celebration of African culture, held in Lagos, Nigeria. Each year thereafter,  he has returned to the continent for further study of traditional dance styles and music.</p>
                         </div>
                     </div>
-                    <div class="p-lg-0 the-aade-image-column col-lg-6">
-                        <img src="<?php echo get_template_directory_uri();?>/images/aade-cropwalk-1_orig.jpg" alt="#">
+                    <div class="p-lg-0 the-aade-image-column col-lg-5">
+                        <img src="<?php echo get_template_directory_uri();?>/images/aade-cropwalk-1_orig.jpg" class="img-fluid" alt="#">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="p-lg-0 the-aade-column col-lg-6">
-                        <img src="<?php echo get_template_directory_uri();?>/images/531005958.jpg" alt="#">
+                <div class="d-flex justify-content-between mt-5 pb-5">
+                    <div class="p-lg-0 the-aade-image-column col-lg-5">
+                        <img src="<?php echo get_template_directory_uri();?>/images/531005958.jpg" class="img-fluid" alt="#">
                     </div>
-                    <div class="the-aade-text-column bg-gray-100 col-lg-6">
-                        <div class="the-aade-text py-5">
-                            <h2 class="text-muted letter-spacing-5 my-4">The African American Dance Ensemble</h2>
+                    <div class="the-aade-text-column bg-gray-100 col-lg-5">
+                        <div class="the-aade-text">
+                            <h2 class="letter-spacing-5 my-4">The African American Dance Ensemble</h2>
                             <p>Each season from 1980 to 1984 the Chuck Davis Dance Company was in residence with the American Dance Festival’s Community Services Program and each season the participants in this outreach program grew. By 1983 it had become obvious that there was a developing core of local dancers whose levels of proficiency were approaching those of the professionals from whom they were learning. The African American Dance Ensemble was born. The Ensemble’s “arrival” was in February 1984 when they gave their first full concert as an independent professional company. In the 1985 season of the American Dance Festival, the African American Dance Ensemble stood on its own and took its place among the other established companies when it premiered two new Chuck Davis works, “Saturday Night, Sunday Morning,” and “Drought,” both of which were commissioned by the American Dance Festival.
                             </p>
                         </div>

@@ -3,7 +3,7 @@
 <div class="hero-image row align-items-center no-gutters our-history-hero-image"  style="background-image: url(<?php the_field('background_hero_support_aade'); ?>); background-position:center !important;">
         <div class="container">
             <div class="hero-text mx-auto text-center">
-                <h1 class="text-white text-uppercase my-4 lead our-history-text">
+                <h1 class="text-white text-uppercase my-4 our-history-text">
                   <?php the_title(); ?>
                 </h1>
             </div>

@@ -27,6 +27,7 @@ body {
     font-family: var(--secondary-font-family);
     line-height: 1.5;
     font-size: 18px;
+    color: var(--color-text-gray-dark);
 }
 
 .text-gray-dark{
@@ -107,9 +108,10 @@ nav a:hover{
     left: 0;
     color: white;
 }
-.our-motto{
+.our-motto {
     font-size: 25px;
 }
+
 .our-history-image-column{
     display: flex;
     justify-content: flex-end;
@@ -234,4 +236,17 @@ footer .button-support small{
     footer .support-text{
         margin-bottom: 70px;
     }
+}
+
+.charles-davis, .angeloe-burch {
+    object-position: top center;
+}
+
+.the-aade-image-column img {
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% top;
+    border-radius: 20px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.15);
 }
