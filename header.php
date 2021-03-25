@@ -21,13 +21,13 @@
                     <p>aadensemble@aade-inc.org</p>
                 </div>
                 <div class="d-inline-flex">
-                    <a title="Facebook" class="mr-3" href="#" target="_blank">
+                    <a title="Facebook" class="mr-3" href="https://www.facebook.com/AADEnsemble/" target="_blank">
                       <img src="<?php echo get_template_directory_uri();?>/images/facebook.svg" alt="social-facebook-icon">
                     </a>
-                    <a title="Twitter" class="mr-3" href="#" target="_blank">
+                    <a title="Twitter" class="mr-3" href="https://twitter.com/AADEnsemble" target="_blank">
                       <img src="<?php echo get_template_directory_uri();?>/images/twitter.svg" alt="social-twitter-icon">
                     </a>
-                    <a title="YouTube" href="#" target="_blank">
+                    <a title="YouTube" href="https://www.youtube.com/channel/UCNSd3ltUkij-Ap3vyDWR5cw" target="_blank">
                       <img src="<?php echo get_template_directory_uri();?>/images/youtube.svg" alt="social-youtube-icon">
                     </a>  
                 </div>
