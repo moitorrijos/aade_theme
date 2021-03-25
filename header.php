@@ -36,7 +36,7 @@
     </div>
     <div class="container-fluid">
         <div class="logo py-4">
-            <a href="sample-page"><img src="<?php echo get_template_directory_uri();?>/images/African_American_Dance_Ensemble.png" alt="logo"></a>
+            <a href="/"><img src="<?php echo get_template_directory_uri();?>/images/African_American_Dance_Ensemble.png" alt="logo"></a>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-blue-light">
