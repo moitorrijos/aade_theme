@@ -12,6 +12,8 @@ if ( ! function_exists( 'aade_theme_setup' ) ) {
 
         add_theme_support( 'post-thumbnails' );
 
+        add_theme_support( 'event-manager-templates' );
+
         add_theme_support(
             'html5',
             array(
