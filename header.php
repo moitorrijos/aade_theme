@@ -55,13 +55,13 @@
                     <a class="nav-link" href="/support-aade"> support aade</a>
                  </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="#">we can dance for you!!!</a>
+                     <a class="nav-link" href="/we-can-dance-for-you">we can dance for you!!!</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="#">what's new & upcoming!!</a>
+                     <a class="nav-link" href="/aade-shedule">what's new & upcoming!!</a>
                  </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="#">product</a>
+                     <a class="nav-link" href="/products">products</a>
                 </li>
             </ul>
         </div>
