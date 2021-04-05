@@ -58,7 +58,7 @@
                      <a class="nav-link" href="/we-can-dance-for-you">we can dance for you!!!</a>
                  </li>
                  <li class="nav-item">
-                     <a class="nav-link" href="/aade-shedule">what's new & upcoming!!</a>
+                     <a class="nav-link" href="/events">what's new & upcoming!!</a>
                  </li>
                 <li class="nav-item">
                      <a class="nav-link" href="/products">products</a>
