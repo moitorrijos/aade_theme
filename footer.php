@@ -33,8 +33,8 @@
                     suport the aade <span class="text-lowercase">and the</span> aacc, support our youth. show your love please give today!
                     </p>
                     <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center support-button mt-5">
-                        <a href="#" class="btn button-support text-uppercase mr-lg-4"><small>Donate</small></a>
-                        <a href="#" class="btn button-support text-uppercase performance-tooltip "><span class="text-capitalize">Performance</span><small>Pay now</small></a>
+                        <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn button-support text-uppercase mr-lg-4"><small>Donate</small></a>
+                        <!-- <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn button-support text-uppercase performance-tooltip "><span class="text-capitalize">Performance</span><small>Pay now</small></a> -->
                     </div>              
                 </div>
                 <div class="col-12 col-md-12 col-lg-4 ">

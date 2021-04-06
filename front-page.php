@@ -9,8 +9,8 @@
                 <h1 class="text-white display-4 font-weight-bold lh-1">
                     <?php the_field('description'); ?>
                 </h1>
-                <a href="#" class="btn btn-lg button-hero">Donate</a>
-                <a href="#" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a>
+                <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn btn-lg button-hero">Donate</a>
+                <!-- <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a> -->
             </div>
         </div>
     </div>
