@@ -79,15 +79,12 @@
                                 <div class="avatar">
                                     <img src="<?php echo get_template_directory_uri();?>/images/deb.jpg" alt="Deb">
                                 </div>
-                                <div class="avatar">
-                                    <img src="<?php echo get_template_directory_uri();?>/images/marjorie-black_1.jpg" alt="Marjorie Black">
-                                </div>
                             </div>
                         </div>
                         <div class="crew">  
                             <div class="crew-avatar">
                                 <div class="avatar">
-                                    <img src="<?php echo get_template_directory_uri();?>/images/percy.jpg" alt="Percy">
+                                    <img src="<?php echo get_template_directory_uri();?>/images/marjorie-black_1.jpg" alt="Marjorie Black">
                                 </div>
                                 <div class="avatar">
                                     <img src="<?php echo get_template_directory_uri();?>/images/armeer.jpg" alt="Armeer">
