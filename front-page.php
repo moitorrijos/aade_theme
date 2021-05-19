@@ -16,11 +16,11 @@
     </div>
    <main>
         <section>
-            <div class="container pt-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="our-mission-text-column bg-gray-100 col-lg-6">
                         <div class="our-mission-text py-5">
-                            <h2 class="text-muted letter-spacing-5 my-4">Our Mission</h2>
+                            <h2 class="text-muted letter-spacing-5 my-4"><?php the_field('our_mission_title'); ?></h2>
                             <?php the_field('our_mission'); ?>
                         </div>
                     </div>
@@ -31,66 +31,65 @@
                 </div>
             </div>
         </section>
-        <section class="bg-white">
+        <section class="bg-white py-5">
             <div class="container py-5">
-                <h2 class="text-center">The African American Dance Ensemble uses dance and music to bring awareness to the inequities in our community and through our ART, createa positive change.</h2>
+                <h2 class="text-center"><?php the_field('slogan'); ?></h2>
             </div>
         </section>
         <section>
             <div class="container py-5">
-            <h2 class="text-center pb-5">Performing arts * Health equity * Youth empowerment *</h2>
-            <div class="row text-center">
+            <?php $performing_arts = get_field('performing_arts'); ?>
+            <h2 class="text-center pt-5"><?php echo $performing_arts['performing_art_title']; ?></h2>
+            <div class="row text-center py-5">
                 <div class="col-lg-4">
-                    <h6 class="text-uppercase">Dance with a purpose</h6>
-                    <p class="text-lg text-muted mb-lg-0">We dance for peace, we dance for strength.
-                    School performances, Board Trainings, Culture Festivals, and many more is where we can enhance community through the Arts.</p>
+                    <h6 class="text-uppercase"><?php echo $performing_arts['column_1']['column_title']; ?></h6>
+                    <p class="text-lg text-muted mb-lg-0"><?php echo $performing_arts['column_1']['column_text']; ?></p>
                 </div>
                 <div class="col-lg-4">
-                    <h6 class="text-uppercase">A healthy you</h6>
-                    <p class="text-lg text-muted mb-lg-0">Through African Dance, learn to become at peace with your body, mind and soul.
-                    A healthy you is a happy you!</p>
+                    <h6 class="text-uppercase"><?php echo $performing_arts['column_2']['column_title']; ?></h6>
+                    <p class="text-lg text-muted mb-lg-0"><?php echo $performing_arts['column_2']['column_text']; ?></p>
                 </div>
                 <div class="col-lg-4">
-                    <h6 class="text-uppercase">Our youth is our future</h6>
-                    <p class="text-lg text-muted mb-lg-0">Teaching our children Peace, Love, Respect, today, for Everybody, is creating a better world through the Arts.</p>
+                    <h6 class="text-uppercase"><?php echo $performing_arts['column_3']['column_title']; ?></h6>
+                    <p class="text-lg text-muted mb-lg-0"><?php echo $performing_arts['column_3']['column_text']; ?></p>
                 </div>
             </div>
         </section>
         <section>
-            <div class="communities-section bg-white">
-                <div class="container pt-4 pb-5">
+            <div class="communities-section bg-white py-5">
+                <?php $partners = get_field('partners'); ?>
+                <div class="container py-5">
                     <div class="row">
-                        <h3 class="mb-4 text-center mx-2 mx-md-auto font-weight-bold">Building Stronger Communities through the power of the ARTS!</h3>
+                        <h3 class="mb-5 text-center mx-2 mx-md-auto font-weight-bold"><?php echo $partners['title']; ?></h3>
                     </div>
                     <div class="row d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-center">
-                        <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">
-                            <img src="<?php echo get_template_directory_uri();?>/images/dac-logo2.gif" alt="">
-                        </div>
-                        <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">
-                            <img src="<?php echo get_template_directory_uri();?>/images/uaclogo.jpg" alt="#">
-                        </div>
-                        <div>
-                            <img src="<?php echo get_template_directory_uri();?>/images/ncartslogo.jpg" alt="#">
-                        </div>
+                        <?php for ($i = 0; $i < 7; $i++) : ?>
+                            <?php if ($partners['partner_logos']['image_'.$i]) : ?>
+                                <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">
+                                    <img 
+                                        src="<?php echo $partners['partner_logos']['image_'.$i]['url']; ?>"
+                                        alt="<?php echo $partners['partner_logos']['image_'.$i]['alt']; ?>"
+                                    >
+                                </div>
+                            <?php endif; ?>
+                        <?php endfor; ?>
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="dancers-for-peace-section container-fluid bg-blue-light py-5">
-                <div class="container">
-                    <div class="row">
+                <?php $dancers = get_field('dancers_for_peace'); ?>
+                <div class="container py-5">
+                    <div class="row py-5">
                         <div class="col-12 col-lg-6 d-flex d-flex-column justify-content-center align-items-center">
                             <div class="image-dancer-peace">
-                                <img src="<?php echo get_template_directory_uri();?>/images/aade-3_orig.jpg" alt="#">
+                                <img src="<?php echo $dancers['image']['url'];?>" alt="<?php echo $dancers['image']['alt']; ?>">
                             </div>                           
                         </div>
                         <div class="col-12 col-lg-6 my-auto">
-                            <h2 class="text-muted text-uppercase text-center text-lg-left pt-4 pb-3 font-weight-bold">Dancers for peace</h2>
-                            <p class="text-muted text-center text-lg-left m-0">AADE is committed to OUTREACH, focusing on the well-being and a possitive future of OUR Youth.
-                             We continue the Legacy of Dr. Chuck Davis in presserving, teaching and performing traditional African Dance Music and Values. </p>  
-                            <p class="text-muted text-center text-lg-left m-0">We present dance and music from West African Region as well as Congolese Drumming.</p>
-                            <p class="text-muted text-center text-lg-left m-0">Culture, History and Values that promote Unity and Diversity are in all our performances. (Call office for Fee Schedule)</p>                                                     
+                            <h2 class="text-uppercase text-center text-lg-left pt-4 pb-3 font-weight-bold"><?php echo $dancers['title']; ?></h2>
+                            <p class="text-center text-lg-left m-0"><?php echo $dancers['description']; ?></p>
                         </div>
                     </div>
                 </div>

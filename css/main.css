@@ -5,10 +5,10 @@
     --color-bg-blue-light: #A3CCF4;
     --color-bg-orange: #FFC953;
     --color-bg-gray-light: #EDEEF5;
-    --color-bg-gray-dark: #606060;
+    --color-bg-gray-dark: #393939;
     --color-bg-ultra-gray-dark: #393434;
     --color-bg-pink: #D6B5D1;
-    --color-text-gray-dark: #747474;
+    --color-text-gray-dark: #393939;
     --color-text-blue-dark: #1D3143;
     --color-text-white: #FFFFFF;
     /*Uso General*/
@@ -25,7 +25,7 @@
 body {
     background-color: var(--color-bg-gray-light);
     font-family: var(--secondary-font-family);
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: 18px;
     color: var(--color-text-gray-dark);
 }
@@ -172,10 +172,6 @@ nav a:hover{
     background-color: var(--color-bg-pink);
 }
 
-.communities-section {
-    color: var(--color-text-blue-dark);
-}
-
 .image-dancer-peace {    
     max-width: 240px;
     height: 240px;
@@ -195,10 +191,6 @@ nav a:hover{
 @media (min-width:992px) {
     .mr-lg-6{
         margin-right:6em !important;
-    }
-    
-    .dancers-for-peace-section {
-        padding: 5em 0 !important;
     }
     
     .image-dancer-peace {     
