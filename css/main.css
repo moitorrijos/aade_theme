@@ -20,14 +20,26 @@
 }
 
 /*Importando Tipografía*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;500&display=swap');
 
 body {
     background-color: var(--color-bg-gray-light);
     font-family: var(--secondary-font-family);
-    line-height: 1.6;
     font-size: 18px;
+    line-height: 1.6;
     color: var(--color-text-gray-dark);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+    margin: 2rem 0;
+    line-height: 1.1;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 2rem 0;
 }
 
 .text-gray-dark{
@@ -60,6 +72,9 @@ img {
 .bg-blue-light{
     background-color: var(--color-bg-blue-light);
 }
+ul.navbar-nav {
+    margin: 0;
+}
 .nav-link{
     display: block;
     color: var(--color-text-ultra-gray-dark);
@@ -67,14 +82,18 @@ img {
     text-decoration: none;
 }
 .nav-item{
-  margin-left: 10px;
-  margin-right: 10px;
+  line-height: 1;
 }
-nav a:hover{
+.nav-item a {
+    padding: 1rem 3rem;
+}
+.nav-item a:hover{
     color: var(--color-text-gray-dark);
 }
+button.navbar-toggler {
+    margin: 0 auto;
+}
 .hero-image{
-    background-image: url("../images/aade-2_orig.jpg");
     background-color: rgba(23, 75, 126, 38%);
     background-blend-mode: multiply;
     background-position: center;
@@ -111,7 +130,13 @@ nav a:hover{
 .our-motto {
     font-size: 25px;
 }
-
+.quote {
+    max-width: 900px;
+    margin: 0 auto;
+}
+address {
+    font-size: 1.5rem;
+}
 .our-history-image-column{
     display: flex;
     justify-content: flex-end;
@@ -127,18 +152,17 @@ nav a:hover{
 }
 
 .our-history-hero-image{
-    /* background-image: url("../images/531005958.jpg"); */
     width: auto;
     background-color: rgba(23, 75, 126, 38%);
     background-blend-mode: multiply;
-    background-position: top;
+    background-position: center 30%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
+
 .members{
     list-style: none;
 }
@@ -147,6 +171,7 @@ nav a:hover{
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
 }
 .avatar img{
     width: 100%;
@@ -156,18 +181,20 @@ nav a:hover{
         
 }
 .crew{
-    display: flex;
+    display: grid;
     flex-direction: column;
     place-items: center;
 }
 .crew-avatar{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     max-width: 800px;
 }
 .board .avatar{
     margin-left: -5px;
-    
 }
+
 .pink-section{
     background-color: var(--color-bg-pink);
 }
@@ -221,7 +248,7 @@ footer .button-support{
 }
 footer .button-support small{
     color:var(--color-text-blue-dark);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 @media (min-width:992px) {
@@ -235,7 +262,7 @@ footer .button-support small{
 }
 
 .the-aade-image-column img {
-    height: 650px;
+    height: 550px;
     width: 100%;
     object-fit: cover;
     object-position: 25% top;

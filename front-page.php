@@ -63,7 +63,7 @@
                         <h3 class="mb-5 text-center mx-2 mx-md-auto font-weight-bold"><?php echo $partners['title']; ?></h3>
                     </div>
                     <div class="row d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-center">
-                        <?php for ($i = 0; $i < 7; $i++) : ?>
+                        <?php for ($i = 0; $i < count($partners['partner_logos']); $i++) : ?>
                             <?php if ($partners['partner_logos']['image_'.$i]) : ?>
                                 <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">
                                     <img 
@@ -95,7 +95,5 @@
                 </div>
             </div>
         </section>
-
    </main>
-</body>
 <?php get_footer(); ?>
