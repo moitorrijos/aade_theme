@@ -72,3 +72,8 @@ function aade_setup(){
         )
     );
 }
+
+/**
+ * Create Options Page
+ */
+require get_template_directory() . '/create-options-page.php';
