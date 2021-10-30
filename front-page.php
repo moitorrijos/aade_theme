@@ -9,8 +9,9 @@
                 <h1 class="text-white display-4 font-weight-bold lh-1">
                     <?php the_field('description'); ?>
                 </h1>
-                <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn btn-lg button-hero">Donate</a>
-                <!-- <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a> -->
+                <a href="<?php the_field('paypal_button_link'); ?>" class="btn btn-lg button-hero">
+                    <?php the_field('paypal_button_text'); ?>
+                </a>
             </div>
         </div>
     </div>
@@ -33,7 +34,9 @@
         </section>
         <section class="bg-white">
             <div class="container py-5">
-                <h2 class="text-center">The African American Dance Ensemble uses dance and music to bring awareness to the inequities in our community and through our ART, createa positive change.</h2>
+                <h2 class="text-center">
+                    <?php the_field('slogan'); ?>
+                </h2>
             </div>
         </section>
         <section>

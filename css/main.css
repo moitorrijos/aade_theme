@@ -19,9 +19,6 @@
     --secondary-font-family: 'Josefin Sans', sans-serif;
 }
 
-/*Importando Tipografía*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap');
-
 body {
     background-color: var(--color-bg-gray-light);
     font-family: var(--secondary-font-family);
@@ -31,7 +28,7 @@ body {
 }
 
 .text-gray-dark{
-    color:var(--color-text-gray-dark) !important;
+    color:var(--color-text-ultra-gray-dark) !important;
 }
 
 img {
@@ -60,18 +57,26 @@ img {
 .bg-blue-light{
     background-color: var(--color-bg-blue-light);
 }
-.nav-link{
+.navbar.navbar {
+    padding: 0;
+}
+.navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.navbar-nav li.current_page_item {
+    background: var(--color-bg-white);
+}
+.navbar-nav li a{
     display: block;
-    color: var(--color-text-ultra-gray-dark);
+    padding: 15px 20px;
+    color: var(--color-text-gray-dark);
     text-align: center;
     text-decoration: none;
 }
-.nav-item{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-nav a:hover{
-    color: var(--color-text-gray-dark);
+.navbar-nav li a:hover{
+    color: var(--color-bg-ultra-gray-dark);
 }
 .hero-image{
     background-image: url("../images/aade-2_orig.jpg");
