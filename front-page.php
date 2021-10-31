@@ -9,8 +9,9 @@
                 <h1 class="text-white display-4 font-weight-bold lh-1">
                     <?php the_field('description'); ?>
                 </h1>
-                <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn btn-lg button-hero">Donate</a>
-                <!-- <a href="https://www.paypal.com/donate?business=7TXLEFSSG9PYW&item_name=Teaching+and+performing+for+the+underserved&currency_code=USD" class="btn btn-lg button-hero performance-tooltip"><span>Performance</span>Pay now</a> -->
+                <a href="<?php the_field('paypal_button_link'); ?>" class="btn btn-lg button-hero">
+                    <?php the_field('paypal_button_text'); ?>
+                </a>
             </div>
         </div>
     </div>
@@ -20,7 +21,9 @@
                 <div class="row">
                     <div class="our-mission-text-column bg-gray-100 col-lg-6">
                         <div class="our-mission-text py-5">
-                            <h2 class="text-muted letter-spacing-5 my-4"><?php the_field('our_mission_title'); ?></h2>
+                            <h2 class="text-muted letter-spacing-5 my-4">
+                                <?php the_field('our_mission_title'); ?>
+                            </h2>
                             <?php the_field('our_mission'); ?>
                         </div>
                     </div>
@@ -33,25 +36,44 @@
         </section>
         <section class="bg-white py-5">
             <div class="container py-5">
-                <h2 class="text-center"><?php the_field('slogan'); ?></h2>
+                <h2 class="text-center">
+                    <?php the_field('slogan'); ?>
+                </h2>
             </div>
         </section>
         <section>
             <div class="container py-5">
             <?php $performing_arts = get_field('performing_arts'); ?>
-            <h2 class="text-center pt-5"><?php echo $performing_arts['performing_art_title']; ?></h2>
-            <div class="row text-center py-5">
+            <h2 class="text-center pb-5">
+                <?php echo $performing_arts['performing_art_title']; ?>
+            </h2>
+            <div class="row text-center">
+                <?php $column_1 = $performing_arts['column_1']; ?>
                 <div class="col-lg-4">
-                    <h6 class="text-uppercase"><?php echo $performing_arts['column_1']['column_title']; ?></h6>
-                    <p class="text-lg text-muted mb-lg-0"><?php echo $performing_arts['column_1']['column_text']; ?></p>
+                    <h6 class="text-uppercase">
+                        <?php echo $column_1['column_title']; ?>
+                    </h6>
+                    <p class="text-lg text-muted mb-lg-0">
+                        <?php echo $column_1['column_text']; ?>
+                    </p>
                 </div>
+                <?php $column_2 = $performing_arts['column_2']; ?>
                 <div class="col-lg-4">
-                    <h6 class="text-uppercase"><?php echo $performing_arts['column_2']['column_title']; ?></h6>
-                    <p class="text-lg text-muted mb-lg-0"><?php echo $performing_arts['column_2']['column_text']; ?></p>
+                    <h6 class="text-uppercase">
+                        <?php echo $column_2['column_title']; ?>
+                    </h6>
+                    <p class="text-lg text-muted mb-lg-0">
+                        <?php echo $column_2['column_text']; ?>
+                    </p>
                 </div>
+                <?php $column_3 = $performing_arts['column_3']; ?>
                 <div class="col-lg-4">
-                    <h6 class="text-uppercase"><?php echo $performing_arts['column_3']['column_title']; ?></h6>
-                    <p class="text-lg text-muted mb-lg-0"><?php echo $performing_arts['column_3']['column_text']; ?></p>
+                    <h6 class="text-uppercase">
+                        <?php echo $column_3['column_title']; ?>
+                    </h6>
+                    <p class="text-lg text-muted mb-lg-0">
+                        <?php echo $column_3['column_text']; ?>
+                    </p>
                 </div>
             </div>
         </section>
@@ -63,6 +85,7 @@
                         <h3 class="mb-5 text-center mx-2 mx-md-auto font-weight-bold"><?php echo $partners['title']; ?></h3>
                     </div>
                     <div class="row d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-center">
+                        <?php $partners = get_field('partners'); ?>
                         <?php for ($i = 0; $i < count($partners['partner_logos']); $i++) : ?>
                             <?php if ($partners['partner_logos']['image_'.$i]) : ?>
                                 <div class="mb-5 mb-sm-0 mr-sm-5 mr-lg-6">

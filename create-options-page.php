@@ -4,10 +4,10 @@ add_action('admin_menu', 'add_aade_custom_options');
 
 function add_aade_custom_options() {
   add_options_page(
-    'AADE General Information',
+    'General Information for AADE',
     'Company Info',
     'manage_options',
-    'company-info',
+    'aade-company-info',
     'aade_custom_options',
   );
   add_action( 'admin_init', 'register_aade_settings' );
@@ -52,6 +52,9 @@ function aade_custom_options() {
           
         <tr valign="top">
           <th scope="row">Company Phone Number</th>
+         
+        <tr valign="top">
+          <th scope="row">Teléfono de la Empresa o para WhatsApp</th>
           <td>
             <input
               type="text" name="aade_phone_number"
