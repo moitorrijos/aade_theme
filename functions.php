@@ -59,3 +59,41 @@ function aade_setup(){
         )
     );
 }
+
+// Register Sidebars for header and footer
+add_action( 'widgets_init', 'aade_register_sidebars' );
+function aade_register_sidebars() {
+    register_sidebar(
+        array(
+            'name'          => __( 'Top Bar Address', 'aade' ),
+            'id'            => 'top-bar-address-sidebar',
+            'description'   => __( 'Add widgets here to appear in your header.', 'aade' ),
+            'before_widget' => '',
+            'after_widget'  => '',
+            'before_title'  => '',
+            'after_title'   => '',
+        )
+    );
+    register_sidebar(
+        array(
+            'name'          => __( 'Top Bar Phone', 'aade' ),
+            'id'            => 'top-bar-phone-sidebar',
+            'description'   => __( 'Add widgets here to appear in your header.', 'aade' ),
+            'before_widget' => '',
+            'after_widget'  => '',
+            'before_title'  => '',
+            'after_title'   => '',
+        )
+    );
+    register_sidebar(
+        array(
+            'name'          => __( 'Top Bar Email', 'aade' ),
+            'id'            => 'top-bar-email-sidebar',
+            'description'   => __( 'Add widgets here to appear in your header.', 'aade' ),
+            'before_widget' => '',
+            'after_widget'  => '',
+            'before_title'  => '',
+            'after_title'   => '',
+        )
+    );
+}

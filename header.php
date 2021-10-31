@@ -9,16 +9,16 @@
             <div class="d-flex flex-column flex-lg-row align-items-center">
                 <div class="d-none d-sm-inline-flex mb-2 mb-lg-0 mr-lg-5">
                   <img class="mr-2" src="<?php echo get_template_directory_uri();?>/images/pin.svg" alt="address-pin-icon">
-                  <p>120 Morris St. Durham, NC 27701</p>
+                  <?php dynamic_sidebar('top-bar-address-sidebar'); ?>
                 </div>
                 <div class="d-inline-flex mb-2 mb-lg-0">
                   <img class="mr-2" src="<?php echo get_template_directory_uri();?>/images/phone.svg" alt="address-pin-icon">
-                  <p>919-560-2729</p>
+                  <?php dynamic_sidebar('top-bar-phone-sidebar'); ?>
                 </div>
             </div>
             <div class="d-flex flex-column flex-lg-row align-items-center">
                 <div class="d-inline-flex mb-2 mb-lg-0 mr-lg-5">
-                    <p>aadensemble@aade-inc.org</p>
+                <?php dynamic_sidebar('top-bar-email-sidebar'); ?>
                 </div>
                 <div class="d-inline-flex">
                     <a title="Facebook" class="mr-3" href="https://www.facebook.com/AADEnsemble/" target="_blank">
@@ -36,7 +36,7 @@
     </div>
     <div class="container-fluid">
         <div class="logo py-4">
-            <a href="/"><img src="<?php echo get_template_directory_uri();?>/images/African_American_Dance_Ensemble.png" alt="logo"></a>
+            <?php the_custom_logo(); ?>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-blue-light">
