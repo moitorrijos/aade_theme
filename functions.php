@@ -45,7 +45,8 @@ add_action('wp_enqueue_scripts', 'aade_enqueue_styles');
 function aade_enqueue_styles(){
     wp_enqueue_style( 'aade-google-fonts', 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700', array(), AADE_VERSION, 'all' );
     wp_enqueue_style( 'aade_bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css', array(), AADE_VERSION, 'all' );
-    wp_enqueue_style( 'main_style', get_template_directory_uri() . '/css/main.css', array('aade_bootstrap'), AADE_VERSION, 'all' );
+    wp_enqueue_style( 'aade_fonts', 'https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap', array(), AADE_VERSION, 'all' );
+    wp_enqueue_style( 'main_style', get_template_directory_uri() . '/css/main.css', array('aade_fonts', 'aade_bootstrap'), AADE_VERSION, 'all' );
     wp_enqueue_script( 'aade_bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js', array('jquery'), AADE_VERSION, true );
 }
 
@@ -94,6 +95,17 @@ function aade_register_sidebars() {
             'after_widget'  => '',
             'before_title'  => '',
             'after_title'   => '',
+        )
+    );
+    register_sidebars(
+        3,
+        array(
+            'name'          => __( 'Footer %d', 'aade' ),
+            'description'   => __( 'Add widgets here to appear in your footer.', 'aade' ),
+            'before_widget' => '',
+            'after_widget'  => '',
+            'before_title'  => '<h3>',
+            'after_title'   => '</h3>',
         )
     );
 }

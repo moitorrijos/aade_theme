@@ -14,6 +14,7 @@ function add_aade_custom_options() {
 }
 
 function register_aade_settings() {
+  register_setting( 'aade-settings-group', 'aade_address' );
 	register_setting( 'aade-settings-group', 'aade_phone_number' );
 	register_setting( 'aade-settings-group', 'aade_email_address' );
 	register_setting( 'aade-settings-group', 'aade_facebook_url' );
@@ -28,13 +29,29 @@ function aade_custom_options() {
   }
   ?>
   <div class="wrap">
-    <h1>Información General de Soporte</h1>
+    <h1>AADE General Company Information</h1>
     <form method="post" action="options.php">
       <?php
         settings_fields( 'aade-settings-group' ); // settings group name
         do_settings_sections( 'aade-settings-group' ); // just a page slug
       ?>
       <table class="form-table">
+        <tr valign="top">
+          <th scope="row">Company Address</th>
+          <td>
+            <input
+              type="text" name="aade_address"
+              value="<?php echo esc_attr( get_option('aade_address') ); ?>"
+              class="regular-text"
+            />
+            <p class="description">
+              African American Dance Ansemble Office Address.
+            </p>
+          </td>
+        </tr>
+          
+        <tr valign="top">
+          <th scope="row">Company Phone Number</th>
          
         <tr valign="top">
           <th scope="row">Teléfono de la Empresa o para WhatsApp</th>
@@ -44,12 +61,12 @@ function aade_custom_options() {
               value="<?php echo esc_attr( get_option('aade_phone_number') ); ?>"
               class="regular-text"
             />
-            <p class="description">Teléfono en formato +(507) 66******</p>
+            <p class="description">Telephone format +(1) 919-***-****</p>
           </td>
         </tr>
           
         <tr valign="top">
-          <th scope="row">Correo Electrónico Principal</th>
+          <th scope="row">Primary Company Email</th>
           <td>
             <input
               type="email" name="aade_email_address"
@@ -57,8 +74,7 @@ function aade_custom_options() {
               class="regular-text"
             />
             <p class="description">
-              Este correo electrónico puede ser diferente al correo del sitio y
-              se mostrará en el encabezado.
+              This email can be different from the WordPress admin email.
             </p>
           </td>
         </tr>
@@ -73,7 +89,7 @@ function aade_custom_options() {
               value="<?php echo esc_attr( get_option('aade_facebook_url') ); ?>"
             >
             <p class="description">
-              En formato de url (https://facebook.com/...)
+              url format (https://facebook.com/...)
             </p>
           </td>
         </tr>
@@ -88,7 +104,7 @@ function aade_custom_options() {
               value="<?php echo esc_attr( get_option('aade_instagram_url') ); ?>"
             >
             <p class="description">
-              En formato de url (https://instagram.com/...)
+              url format (https://instagram.com/...)
             </p>
           </td>
         </tr>
@@ -103,7 +119,7 @@ function aade_custom_options() {
               value="<?php echo esc_attr( get_option('aade_twitter_url') ); ?>"
             >
             <p class="description">
-              En formato de url (https://twitter.com/...)
+              url format (https://twitter.com/...)
             </p>
           </td>
         </tr>
@@ -118,7 +134,7 @@ function aade_custom_options() {
               value="<?php echo esc_attr( get_option('aade_youtube_url') ); ?>"
             >
             <p class="description">
-              En formato de url (https://youtube.com/...)
+              url format (https://youtube.com/...)
             </p>
           </td>
         </tr>
