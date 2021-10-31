@@ -9,25 +9,25 @@
             <div class="d-flex flex-column flex-lg-row align-items-center">
                 <div class="d-none d-sm-inline-flex mb-2 mb-lg-0 mr-lg-5">
                   <img class="mr-2" src="<?php echo get_template_directory_uri();?>/images/pin.svg" alt="address-pin-icon">
-                  <p>120 Morris St. Durham, NC 27701</p>
+                  <p><?php echo get_option('aade_address'); ?></p>
                 </div>
                 <div class="d-inline-flex mb-2 mb-lg-0">
                   <img class="mr-2" src="<?php echo get_template_directory_uri();?>/images/phone.svg" alt="address-pin-icon">
-                  <p>919-560-2729</p>
+                  <p><?php echo get_option('aade_phone_number'); ?></p>
                 </div>
             </div>
             <div class="d-flex flex-column flex-lg-row align-items-center">
                 <div class="d-inline-flex mb-2 mb-lg-0 mr-lg-5">
-                    <p>aadensemble@aade-inc.org</p>
+                    <p><?php echo get_option('aade_email_address'); ?></p>
                 </div>
                 <div class="d-inline-flex">
-                    <a title="Facebook" class="mr-3" href="https://www.facebook.com/AADEnsemble/" target="_blank">
+                    <a title="Facebook" class="mr-3" href="<?php echo get_option('aade_facebook_url'); ?>" target="_blank">
                       <img src="<?php echo get_template_directory_uri();?>/images/facebook.svg" alt="social-facebook-icon">
                     </a>
-                    <a title="Twitter" class="mr-3" href="https://twitter.com/AADEnsemble" target="_blank">
+                    <a title="Twitter" class="mr-3" href="<?php echo get_option('aade_twitter_url'); ?>" target="_blank">
                       <img src="<?php echo get_template_directory_uri();?>/images/twitter.svg" alt="social-twitter-icon">
                     </a>
-                    <a title="YouTube" href="https://www.youtube.com/channel/UCNSd3ltUkij-Ap3vyDWR5cw" target="_blank">
+                    <a title="YouTube" href="<?php echo get_option('aade_youtube_url'); ?>" target="_blank">
                       <img src="<?php echo get_template_directory_uri();?>/images/youtube.svg" alt="social-youtube-icon">
                     </a>  
                 </div>

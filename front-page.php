@@ -17,7 +17,7 @@
     </div>
    <main>
         <section>
-            <div class="container pt-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="our-mission-text-column bg-gray-100 col-lg-6">
                         <div class="our-mission-text py-5">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </section>
-        <section class="bg-white">
+        <section class="bg-white py-5">
             <div class="container py-5">
                 <h2 class="text-center">
                     <?php the_field('slogan'); ?>
@@ -78,10 +78,11 @@
             </div>
         </section>
         <section>
-            <div class="communities-section bg-white">
-                <div class="container pt-4 pb-5">
+            <div class="communities-section bg-white py-5">
+                <?php $partners = get_field('partners'); ?>
+                <div class="container py-5">
                     <div class="row">
-                        <h3 class="mb-4 text-center mx-2 mx-md-auto font-weight-bold">Building Stronger Communities through the power of the ARTS!</h3>
+                        <h3 class="mb-5 text-center mx-2 mx-md-auto font-weight-bold"><?php echo $partners['title']; ?></h3>
                     </div>
                     <div class="row d-flex flex-column d-sm-flex flex-sm-row align-items-center justify-content-center">
                         <?php $partners = get_field('partners'); ?>
@@ -118,5 +119,4 @@
             </div>
         </section>
    </main>
-</body>
 <?php get_footer(); ?>
