@@ -1,6 +1,7 @@
 :root {
   /*Colores*/
   --color-bg-white: #ffffff;
+  --color-bg-black: #0b090a;
   --color-bg-blue-dark: #2c7bc6;
   --color-bg-blue-light: #a3ccf4;
   --color-bg-orange: #ffc953;
@@ -286,4 +287,11 @@ footer .button-support small {
   object-position: center top;
   border-radius: 20px;
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.15);
+}
+
+.copyright-footer {
+  background: var(--color-bg-black);
+  color: var(--color-bg-white);
+  font-size: 0.9rem;
+  padding: 10px 20px;
 }
