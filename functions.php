@@ -109,3 +109,5 @@ function aade_register_sidebars() {
         )
     );
 }
+
+require get_template_directory() . '/create-options-page.php';
